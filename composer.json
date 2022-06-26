@@ -1,0 +1,19 @@
+{
+    "require": {
+        "league/csv": "^9.7",
+      "ext-json": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Optimacros\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Optimacros\\Test\\": "Test/"
+        }
+    }
+}
